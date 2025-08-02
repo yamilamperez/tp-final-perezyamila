@@ -7,3 +7,6 @@ Mi aporte personal lo apliqué en la adpatabilidad del sitio (responsive), ya qu
 - React
 - React Router
 - Vite
+
+# DEPLOY
+VERCEL: https://tp-final-perezyamila.vercel.app/
