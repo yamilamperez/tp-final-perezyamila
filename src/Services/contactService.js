@@ -95,9 +95,9 @@ const getContactList = () => {
     return contacts
 }
 
-const getContactById = () => {
+const getContactById = (id) => {
     for(const contact of contacts) {
-        if(Number(contact.id) === Number(contact.id)) {
+        if (contact.id === parseInt(id)) {
             return contact
         }
     }
