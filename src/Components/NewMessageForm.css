@@ -1,0 +1,36 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form__container {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.form__label {
+    visibility: hidden;
+}
+
+.form__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-indent: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #999999;
+
+}
+
+.submit__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: #1daa61;
+    border: none;
+    border-radius: 50%;
+}

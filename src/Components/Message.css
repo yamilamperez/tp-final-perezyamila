@@ -1,0 +1,13 @@
+.message__container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 0.2em 0.4em 0.2em 0.4em;
+    background-color: var(--message-container-bg);
+}
+
+.message__time {
+    display: flex;
+    justify-content: end;
+    font-size: 0.6em;
+}
