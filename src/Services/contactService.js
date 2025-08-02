@@ -2,7 +2,7 @@ const contacts = [
         {
         id: 1,
         name: 'Príncipe encantador',
-        avatar: '../assets/Encantador.jpg',
+        avatar: '../public/encantador.jpg',
         description: 'Te quiero mami <3',
         last_connection: 'ayer',
         connection_status: 'offline',
@@ -40,7 +40,7 @@ const contacts = [
         {
         Id: 2,
         name: 'Farquad',
-        avatar: '../assets/Farquad.png',
+        avatar: '../public/farquad.jpg',
         description: 'El gran Rey de Dunlop',
         last_conection: 'ahora',
         conection_status: 'online',

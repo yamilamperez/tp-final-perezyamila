@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import { createPortal } from 'react-dom'
 import ContactList from '../Components/ContactList'
 import { getContactList } from '../Services/contactService'
 
