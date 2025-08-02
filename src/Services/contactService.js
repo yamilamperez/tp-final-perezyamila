@@ -16,15 +16,29 @@ const contacts = [
         },
         {
             emisor: 'Encantador',
+            hora: '18:51',
+            id: 2,
+            texto: 'Esos nombres no me suenan....',
+            status: 'visto'
+        },
+        {
+            emisor: 'Encantador',
             hora: '18:52',
             id: 2,
             texto: 'Escuchen monstruitos... mejor cooperen con el rey de Muy Muy Lejano!!!!',
             status: 'visto'
         },
+                {
+            emisor: 'Encantador',
+            hora: '18:53',
+            id: 2,
+            texto: '¡De lo único que serás rey es del reino de los estúpidos!',
+            status: 'visto'
+        },
         ]
         },
         {
-        id: 2,
+        Id: 2,
         name: 'Farquad',
         avatar: '../assets/Farquad.png',
         description: 'El gran Rey de Dunlop',
@@ -40,61 +54,37 @@ const contacts = [
         },
         {
             emisor: 'Farquad',
-            hora: '15:42',
+            hora: '15:41',
             id: 2,
+            texto: 'Nooo, no mis botones de gomita... De acuerdo, te lo cuento. ¿Tú conoces a Pin Pon?',
+            status: 'visto'
+        },
+        {
+            emisor: 'Farquad',
+            hora: '15:42',
+            id: 3,
             texto: '¿Pin Pon?',
             status: 'visto'
         },
         {
             emisor: 'Farquad',
-            hora: '15:44',
-            id: 3,
-            texto: '¡¿CON AGUA Y CON JABÓN?!',
-            status: 'visto'
-        }
-        ]
-        },
-        {
-        id: 3,
-        name: 'Jengibre',
-        avatar: '../assets/Jengibre.jpg',
-        description: 'El gran Rey de Dunlop',
-        last_conection: 'ahora',
-        conection_status: 'online',
-        messages: [        
-        {
-            emisor: 'Jengibre',
-            hora: '15:41',
-            id: 1,
-            texto: 'Nooo, no mis botones de gomita. De acuerdo, te lo cuento. ¿Tú conoces a Pin Pon?',
-            status: 'visto'
-        },
-        {
-            emisor: 'Jengibre',
             hora: '15:43',
-            id: 2,
+            id: 4,
             texto: 'Sí, Pin Pon. Se lava su carita con agua y con jabón.',
             status: 'visto'
         },
         {
-            emisor: 'Jengibre',
-            hora: '15:45',
+            emisor: 'Farquad',
+            hora: '15:44',
+            id: 5,
+            texto: '¡¿CON AGUA Y CON JABÓN?!',
+            status: 'visto'
+        },
+        {
+            emisor: 'Farquad',
+            hora: '15:42',
             id: 3,
             texto: '¡SÍ, SE LAVA LA CARITA!',
-            status: 'visto'
-        },
-        {
-            emisor: 'Jengibre',
-            hora: '18:51',
-            id: 4,
-            texto: 'Esos nombres no me suenan.',
-            status: 'visto'
-        },
-        {
-            emisor: 'Jengibre',
-            hora: '18:53',
-            id: 5,
-            texto: '¡De lo único que serás rey es del reino de los estúpidos!',
             status: 'visto'
         }
         ]
