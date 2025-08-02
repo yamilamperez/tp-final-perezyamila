@@ -4,8 +4,8 @@ const contacts = [
         name: 'Príncipe encantador',
         avatar: '../public/encantador.jpg',
         description: 'Te quiero mami <3',
-        last_connection: 'ayer',
-        connection_status: 'offline',
+        lastConnection: 'ayer',
+        connectionStatus: 'offline',
         messages: [
         {
             emisor: 'Encantador',
@@ -24,66 +24,66 @@ const contacts = [
         {
             emisor: 'Encantador',
             hora: '18:52',
-            id: 2,
+            id: 3,
             texto: 'Escuchen monstruitos... mejor cooperen con el rey de Muy Muy Lejano!!!!',
             status: 'visto'
         },
                 {
             emisor: 'Encantador',
             hora: '18:53',
-            id: 2,
+            id: 4,
             texto: '¡De lo único que serás rey es del reino de los estúpidos!',
             status: 'visto'
         },
         ]
         },
         {
-        Id: 2,
+        id: 2,
         name: 'Farquad',
         avatar: '../public/farquad.jpg',
         description: 'El gran Rey de Dunlop',
-        last_conection: 'ahora',
-        conection_status: 'online',
+        lastConnection: 'ahora',
+        connectionStatus: 'online',
         messages: [        
         {
             emisor: 'Farquad',
             hora: '15:40',
-            id: 1,
+            id: 5,
             texto: 'Dime o te arrancaré....',
             status: 'visto'
         },
         {
             emisor: 'Farquad',
             hora: '15:41',
-            id: 2,
+            id: 6,
             texto: 'Nooo, no mis botones de gomita... De acuerdo, te lo cuento. ¿Tú conoces a Pin Pon?',
             status: 'visto'
         },
         {
             emisor: 'Farquad',
             hora: '15:42',
-            id: 3,
+            id: 7,
             texto: '¿Pin Pon?',
             status: 'visto'
         },
         {
             emisor: 'Farquad',
             hora: '15:43',
-            id: 4,
+            id: 8,
             texto: 'Sí, Pin Pon. Se lava su carita con agua y con jabón.',
             status: 'visto'
         },
         {
             emisor: 'Farquad',
             hora: '15:44',
-            id: 5,
+            id: 9,
             texto: '¡¿CON AGUA Y CON JABÓN?!',
             status: 'visto'
         },
         {
             emisor: 'Farquad',
             hora: '15:42',
-            id: 3,
+            id: 10,
             texto: '¡SÍ, SE LAVA LA CARITA!',
             status: 'visto'
         }
