@@ -1,13 +1,37 @@
 .message__container {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    border-radius: 1em;
     width: fit-content;
     padding: 0.2em 0.4em 0.2em 0.4em;
+    margin: 1em;
     background-color: var(--message-container-bg);
+    box-shadow: 1px 1px 1px rgb(211, 211, 210);
 }
 
 .message__time {
     display: flex;
     justify-content: end;
     font-size: 0.6em;
+}
+
+.message__text {
+    font-family: 'Segoe UI', 'Helvetica neue', sans-serif;
+}
+
+.message__delete__button {
+    display: flex;
+    justify-content: end;
+    background: none;
+    border: none;
+}
+
+.message__delete__button :hover {
+cursor: pointer;
+color: #1daa61;
+}
+
+.message__delete__button svg {
+    width: 13px;
 }

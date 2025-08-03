@@ -11,7 +11,6 @@ const [contactsState, setContactsState] = useState(contacts)
 
 return (
     <div>
-      <h1>Chats</h1>
       <ContactList contacts={contactsState}/>
     </div>
   )
