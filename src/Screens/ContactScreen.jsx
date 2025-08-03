@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { createPortal } from 'react-dom'
 import ContactList from '../Components/ContactList'
 import { getContactList } from '../Services/contactService'
 
@@ -11,7 +12,9 @@ const [contactsState, setContactsState] = useState(contacts)
 
 return (
     <div>
-      <ContactList contacts={contactsState}/>
+      {createPortal(
+        <ContactList contacts={contactsState}/>, document.getElementById('chats')
+      )}
     </div>
   )
 }

@@ -1,0 +1,55 @@
+.link__contact {
+    font-family: 'Segoe UI', 'Helvetica neue', sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.link__contact :hover {
+    background-color: rgba(194, 194, 194, 0.251);
+    border-radius: 5px;
+}
+
+.link__contact :visited {
+    text-decoration: none;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    gap: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar__container {
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+
+.avatar__container img {
+    border-radius: 50%;
+}
+
+.contact__details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+.contact__name {
+    font-size: 1.1em;
+    color: var(--color-font);
+    line-height: normal;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.contact__connection {
+    color: grey;
+    font-size: 0.8em;
+}

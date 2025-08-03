@@ -1,8 +1,9 @@
 .form {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    width: 100%;
+    width: auto;
+    position: absolute;
 }
 
 .form__container {
@@ -17,10 +18,12 @@
 
 .form__input {
     display: flex;
-    justify-content: center;
-    align-items: left;
+    justify-content: left;
     text-indent: 10px;
     border: none;
     border-radius: 30px;
     box-shadow: 1px 1px 5px #999999;
+    position: relative;
+    right: 7em;
+    width: 100%;
 }

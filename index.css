@@ -12,6 +12,8 @@
     --buttons-hover-bg: #eae9e7;
     --header-border: solid 1px #e5e5e5;
     --message-container-bg: #d9fdd3;
+    --color-font: #0b0b0b;
+    --font-size: 0.9em;
 }
 
 
@@ -26,8 +28,9 @@ body {
     height: 100%;
     width: 100%;
     background-color: var(--body-bg);
-    font-family: 'Segoe UI', Helvetica neue, sans-serif;
-    font-size: 0.9em;
+    font-family: 'Segoe UI','Helvetica neue', sans-serif;
+    color: var(--color-font);
+    font-size: var(--font-size);
 }
 
 /*ASIDE*/
@@ -148,7 +151,10 @@ body {
 /* MAIN */
 
 main {
+    height: 100%;
     width: 100%;
+    background-image: url(/images/fondo-chat.jpg); /*No conseguí otra imagen más grande, por lo que no pude evitar que se repita*/
+    background-size: contain;
     z-index: 0;
 }
 
@@ -163,8 +169,5 @@ main {
 .chat__content {
     padding: 60px 50px 20px 50px;
     height: 100%;
-    background-image: url(/images/fondo-chat.jpg);
-    background-size: contain;
-    overflow-y: auto;
-    overflow-x: hidden;
+    width: 100%;
 }

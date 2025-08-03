@@ -41,7 +41,7 @@ const ChatScreen = () => {
     }
 
     return (
-        <div>
+        <div className='chat__content'>
     <MessagesList messages = {messages} deleteMessageById={deleteMessageById}/>
     <NewMessageForm addNewMessage={addNewMessage}/>
         </div>

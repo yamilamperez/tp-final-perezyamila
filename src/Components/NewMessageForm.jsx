@@ -11,12 +11,12 @@ const NewMessageForm = ({addNewMessage}) => {
 }
 
     return (
-            <div className='form__container'>
+        <div>
                 <form onSubmit={handleSubmitSendMessageForm} className='form'>
                         <label className='form__label' htmlFor="message">Escribe un mensaje</label>
                         <input type="text" placeholder='Escribe un mensaje' id='message' name='message' required className='form__input'/>
                 </form>
-            </div>
+        </div>
 )
 
 }
