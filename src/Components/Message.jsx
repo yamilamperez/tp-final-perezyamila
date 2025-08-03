@@ -9,8 +9,16 @@ const Message =({emisor, hora, id, texto, status, deleteMessageById}) => {
         setMessageSelected(true)
     }
 
+    const changeMessageStyle = (message) => {
+            if (message.emisor === 'Jengibre') {
+                return {
+                    backgroundColor: 'var(--message-container-bg)'
+                }
+            
+            }};
+
     return (
-            <div className='message__container' onContextMenu={handleChangeMessageSelected}>
+            <div id='message-container' className='message__container' style={changeMessageStyle({emisor})} onContextMenu={handleChangeMessageSelected}>
                 <span className='message__text'>{texto}</span>
                     <span className='message__time'>{hora}</span>
                     {

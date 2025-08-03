@@ -2,13 +2,14 @@ import React from 'react'
 import Message from './Message'
 
 const MessagesList = ({messages, deleteMessageById}) => {
-    
+
     if(messages.length === 0){
         return (
             <span>Lo siento, aún no hay mensajes.</span>
             )
     }
     
+
     const lista_mensajes = messages.map(
         function (message){
             return (

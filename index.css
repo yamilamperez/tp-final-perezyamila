@@ -13,7 +13,7 @@
     --header-border: solid 1px #e5e5e5;
     --message-container-bg: #d9fdd3;
     --color-font: #0b0b0b;
-    --font-size: 0.9em;
+    --font-size: 1em;
 }
 
 
@@ -153,8 +153,6 @@ body {
 main {
     height: 100%;
     width: 100%;
-    background-image: url(/images/fondo-chat.jpg); /*No conseguí otra imagen más grande, por lo que no pude evitar que se repita*/
-    background-size: contain;
     z-index: 0;
 }
 

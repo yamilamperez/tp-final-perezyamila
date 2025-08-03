@@ -10,8 +10,13 @@ const ContactItem = ({contact}) => {
                         <img src={contact.avatar} alt={contact.name} style={{width:"50px", height:"50px"}}/>
                     </div>
                     <div className='contact__details'>
-                        <p className='contact__name'>{contact.name}</p>
-                        <span className='contact__connection'>{contact.lastConnection}</span>
+                        <div className='contact__details__top'>
+                            <p className='contact__name'>{contact.name}</p>
+                            <span className='contact__connection'>{contact.lastConnection}</span>
+                        </div>
+                        <div className='contact__details__bottom'>
+                            <span>{contact.lastMessage}</span>
+                        </div>
                     </div>
                 </div>    
             </Link>

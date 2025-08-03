@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { useParams } from 'react-router'
 import MessagesList from '../Components/MessagesList'
+import ContactScreen from './ContactScreen'
 import {NewMessageForm} from '../Components/NewMessageForm'
 import { getContactById } from '../Services/contactService'
 
@@ -27,7 +28,7 @@ const ChatScreen = () => {
         const formattedTime = currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
         
         const new_message = {
-            emisor: 'YO',
+            emisor: 'Jengibre',
             hora: formattedTime,
             texto: text,
             status: 'no-visto',
@@ -41,7 +42,7 @@ const ChatScreen = () => {
     }
 
     return (
-        <div className='chat__content'>
+        <div>
     <MessagesList messages = {messages} deleteMessageById={deleteMessageById}/>
     <NewMessageForm addNewMessage={addNewMessage}/>
         </div>

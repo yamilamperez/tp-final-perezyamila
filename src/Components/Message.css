@@ -6,7 +6,7 @@
     width: fit-content;
     padding: 0.2em 0.4em 0.2em 0.4em;
     margin: 1em;
-    background-color: var(--message-container-bg);
+    background-color: white;
     box-shadow: 1px 1px 1px rgb(211, 211, 210);
 }
 

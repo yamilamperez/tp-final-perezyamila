@@ -3,8 +3,8 @@ const contacts = [
         id: 1,
         name: 'Príncipe encantador',
         avatar: '/images/encantador.jpg',
-        lastConnection: 'Ayer',
-        connectionStatus: 'offline',
+        lastConnection: '18:52',
+        lastMessage: '¡De lo único que serás rey es del reino d...',
         messages: [
         {
             emisor: 'Encantador',
@@ -14,10 +14,10 @@ const contacts = [
             status: 'visto'
         },
         {
-            emisor: 'Encantador',
+            emisor: 'Jengibre',
             hora: '18:51',
             id: 2,
-            texto: 'Esos nombres no me suenan....',
+            texto: 'Esos nombres no me suenan...',
             status: 'visto'
         },
         {
@@ -28,7 +28,7 @@ const contacts = [
             status: 'visto'
         },
                 {
-            emisor: 'Encantador',
+            emisor: 'Jengibre',
             hora: '18:53',
             id: 4,
             texto: '¡De lo único que serás rey es del reino de los estúpidos!',
@@ -41,8 +41,8 @@ const contacts = [
         name: 'Farquad',
         avatar: '/images/farquad.jpg',
         description: 'El gran Rey de Dunlop',
-        lastConnection: 'Ahora',
-        connectionStatus: 'online',
+        lastConnection: '15:44',
+        lastMessage: '¡SÍ, SE LAVA LA CARITA!',
         messages: [        
         {
             emisor: 'Farquad',
@@ -52,7 +52,7 @@ const contacts = [
             status: 'visto'
         },
         {
-            emisor: 'Farquad',
+            emisor: 'Jengibre',
             hora: '15:41',
             id: 6,
             texto: 'Nooo, no mis botones de gomita... De acuerdo, te lo cuento. ¿Tú conoces a Pin Pon?',
@@ -66,7 +66,7 @@ const contacts = [
             status: 'visto'
         },
         {
-            emisor: 'Farquad',
+            emisor: 'Jengibre',
             hora: '15:43',
             id: 8,
             texto: 'Sí, Pin Pon. Se lava su carita con agua y con jabón.',
@@ -80,8 +80,8 @@ const contacts = [
             status: 'visto'
         },
         {
-            emisor: 'Farquad',
-            hora: '15:42',
+            emisor: 'Jengibre',
+            hora: '15:45',
             id: 10,
             texto: '¡SÍ, SE LAVA LA CARITA!',
             status: 'visto'
