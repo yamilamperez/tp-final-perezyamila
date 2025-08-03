@@ -1,11 +1,10 @@
 import React, {useState} from 'react'
 import { useParams } from 'react-router'
 import MessagesList from '../Components/MessagesList'
-import ContactScreen from './ContactScreen'
 import {NewMessageForm} from '../Components/NewMessageForm'
 import { getContactById } from '../Services/contactService'
-import './ChatScreen.css'
-import ContactInfo from '../Components/ContactInfo'
+import ContactScreen from './ContactScreen'
+
 
 const ChatScreen = () => {
     
@@ -45,6 +44,7 @@ const ChatScreen = () => {
 
     return (
         <div>
+                <ContactScreen/>
                 <MessagesList messages = {messages} deleteMessageById={deleteMessageById}/>
                 <NewMessageForm addNewMessage={addNewMessage}/>
         </div>

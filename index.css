@@ -155,17 +155,3 @@ main {
     width: 100%;
     z-index: 0;
 }
-
-.chat__header {
-    height: 64px;
-    width: 100%;
-    background-color: var(--header-bg);
-    border-left:var(--header-border);
-    box-shadow: 1px 1px 10px #e0e0e0;
-}
-
-.chat__content {
-    padding: 60px 50px 20px 50px;
-    height: 100%;
-    width: 100%;
-}

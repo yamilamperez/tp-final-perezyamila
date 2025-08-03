@@ -27,7 +27,7 @@ const MessagesList = ({messages, deleteMessageById}) => {
     )
     
     return (
-        <div>
+        <div className='messages__container'>
             {lista_mensajes}
         </div>
     )
