@@ -36,6 +36,8 @@ body {
         display: flex;
         flex-direction: row-reverse;
         height: 100%;
+        box-shadow: 1px 1px 4px rgba(141, 141, 141, 0.336);
+        border: 1px var(--header-border);
         z-index: 1;
     }
 
@@ -161,4 +163,8 @@ main {
 .chat__content {
     padding: 60px 50px 20px 50px;
     height: 100%;
+    background-image: url(/images/fondo-chat.jpg);
+    background-size: contain;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
