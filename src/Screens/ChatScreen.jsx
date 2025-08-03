@@ -5,6 +5,7 @@ import ContactScreen from './ContactScreen'
 import {NewMessageForm} from '../Components/NewMessageForm'
 import { getContactById } from '../Services/contactService'
 import './ChatScreen.css'
+import ContactInfo from '../Components/ContactInfo'
 
 const ChatScreen = () => {
     
@@ -44,9 +45,8 @@ const ChatScreen = () => {
 
     return (
         <div>
-            
-    <MessagesList messages = {messages} deleteMessageById={deleteMessageById}/>
-    <NewMessageForm addNewMessage={addNewMessage}/>
+                <MessagesList messages = {messages} deleteMessageById={deleteMessageById}/>
+                <NewMessageForm addNewMessage={addNewMessage}/>
         </div>
     )
 
