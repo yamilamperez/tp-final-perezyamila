@@ -4,6 +4,7 @@ import MessagesList from '../Components/MessagesList'
 import ContactScreen from './ContactScreen'
 import {NewMessageForm} from '../Components/NewMessageForm'
 import { getContactById } from '../Services/contactService'
+import './ChatScreen.css'
 
 const ChatScreen = () => {
     
@@ -43,6 +44,7 @@ const ChatScreen = () => {
 
     return (
         <div>
+            
     <MessagesList messages = {messages} deleteMessageById={deleteMessageById}/>
     <NewMessageForm addNewMessage={addNewMessage}/>
         </div>
