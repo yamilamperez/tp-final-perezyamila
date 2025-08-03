@@ -1,0 +1,43 @@
+.contact__header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: white;
+    box-shadow: 1px 1px 5px #9f9f9f;
+    border-left: 1px solid #e5e5e5;
+    padding: 10px 16px;
+    width: 100%;
+    height: 64px;
+}
+
+.contact__header__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--color-font);
+}
+
+.return__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    width: 50px;
+}
+
+.return__button svg {
+    stroke: black;
+    width: 100%;
+}
+
+.return__button :hover {
+    stroke: #1DAA61;
+    cursor: pointer;
+}
+
+.contact__header__name {
+    text-decoration: none;
+}
