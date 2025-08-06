@@ -41,7 +41,6 @@ body {
         height: 100%;
         box-shadow: 1px 1px 4px rgba(141, 141, 141, 0.336);
         border: 1px var(--header-border);
-        z-index: 1;
     }
 
     .aside__toolbar {
@@ -151,9 +150,8 @@ body {
 /* MAIN */
 
 main {
-    background-image: url(/public/images/fondo-chat.jpg);
+    background-image: url(/images/fondo-chat.jpg);
     background-size: contain;
     height: 100%;
     width: 100%;
-    z-index: 0;
 }

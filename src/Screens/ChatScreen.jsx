@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { useParams } from 'react-router'
+import { useEffect } from 'react'
 import MessagesList from '../Components/MessagesList'
 import {NewMessageForm} from '../Components/NewMessageForm'
 import { getContactById } from '../Services/contactService'
@@ -10,9 +11,15 @@ import ContactInfo from '../Components/ContactInfo'
 const ChatScreen = () => {
     
     const {contact_id} = useParams()
-    const contact_selected = getContactById(contact_id)
-
+    const contact_selected = getContactById(Number(contact_id))
     const [messages, setMessages] = useState(contact_selected.messages)
+
+    useEffect(() => {
+  const contact_selected = getContactById(contact_id);
+  if (contact_selected) {
+    setMessages(contact_selected.messages);
+  }
+}, [contact_id]);
 
     const deleteMessageById = (message_id) => {
         const new_message_list = []
