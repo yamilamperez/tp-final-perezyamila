@@ -15,11 +15,11 @@ const ChatScreen = () => {
     const [messages, setMessages] = useState(contact_selected.messages)
 
     useEffect(() => {
-  const contact_selected = getContactById(contact_id);
-  if (contact_selected) {
-    setMessages(contact_selected.messages);
-  }
-}, [contact_id]);
+        const contact_selected = getContactById(contact_id)
+        if (contact_selected) {
+            setMessages(contact_selected.messages);
+        }
+    }, [contact_id])
 
     const deleteMessageById = (message_id) => {
         const new_message_list = []
