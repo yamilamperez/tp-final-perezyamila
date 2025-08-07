@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 0.5rem;
     text-decoration: none;
     color: var(--color-font);
 }
@@ -25,7 +25,7 @@
     justify-content: center;
     border: none;
     background: none;
-    width: 50px;
+    width: 3rem;
 }
 
 .return__button svg {

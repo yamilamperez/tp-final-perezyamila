@@ -14,7 +14,6 @@ const Message =({emisor, hora, id, texto, status, deleteMessageById}) => {
                 return {
                     backgroundColor: 'var(--message-container-bg)'
                 }
-            
             }};
 
     return (
