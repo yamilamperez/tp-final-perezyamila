@@ -1,10 +1,10 @@
 const contacts = [
         {
         id: 1,
-        name: 'Príncipe encantador',
+        name: 'Encantador',
         avatar: '/images/encantador.jpg',
         lastConnection: '18:52',
-        lastMessage: '¡De lo único que serás rey es del reino d...',
+        lastMessage: '¡De lo único que serás r...',
         messages: [
         {
             emisor: 'Encantador',

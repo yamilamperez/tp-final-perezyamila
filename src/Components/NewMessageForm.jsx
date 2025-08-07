@@ -11,7 +11,7 @@ const NewMessageForm = ({addNewMessage}) => {
 }
 
         return (
-                <div className='formbox'>
+                <div>
                 <form onSubmit={handleSubmitSendMessageForm}>
                         <label className='form__label' htmlFor="message">Escribe un mensaje</label>
                         <input type="text" placeholder='Escribe un mensaje' id='message' name='message' required className='form__input'/>

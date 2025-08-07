@@ -18,8 +18,8 @@
 
 
 html {
-    height: 100%;
-    width: 100%;
+    height: 100dvh;
+    width: 100dvw;
 }
 
 
@@ -154,4 +154,25 @@ main {
     background-size: contain;
     height: 100%;
     width: 100%;
+}
+
+/* MEDIAS QUERIES */
+
+@media (width <= 768px) {
+
+    html {
+    font-size: 0.8em;
+    }
+
+    .aside__header {
+        width: 100%;
+    }
+}
+
+@media (width <= 485px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
 }

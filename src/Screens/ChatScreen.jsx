@@ -6,6 +6,7 @@ import {NewMessageForm} from '../Components/NewMessageForm'
 import { getContactById } from '../Services/contactService'
 import ContactScreen from './ContactScreen'
 import ContactInfo from '../Components/ContactInfo'
+import { createPortal } from 'react-dom'
 
 
 const ChatScreen = () => {
